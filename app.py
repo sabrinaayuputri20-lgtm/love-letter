@@ -921,6 +921,12 @@ def pesan():
                 </div>
             </div>
 
+            <div style="text-align: center; margin-top: 50px;">
+    <a href="/penutup" class="button">
+        Aku sudah selesai membaca 💌
+    </a>
+</div>
+
         </div>
 <script>
 const bgMusic = document.getElementById("bgMusic");
@@ -1284,7 +1290,364 @@ window.addEventListener("beforeunload", () => {
 </body>
 </html>
 """
+@app.route("/penutup")
+def penutup():
+    return """
+    <!DOCTYPE html>
+    <html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <title>Finis Epistulae ❤️</title>
+
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                margin: 0;
+                padding: 40px 20px;
+                font-family: Georgia, serif;
+                background: linear-gradient(135deg, #fff0f5, #ffe4ec);
+                color: #4a3038;
+            }
+
+            .container {
+                max-width: 850px;
+                margin: auto;
+                background: rgba(255, 255, 255, 0.95);
+                padding: 50px;
+                border-radius: 25px;
+                box-shadow: 0 15px 40px rgba(120, 70, 90, 0.15);
+            }
+
+            .heart {
+                text-align: center;
+                font-size: 50px;
+                margin-bottom: 15px;
+            }
+
+            h1 {
+                text-align: center;
+                font-size: 34px;
+                color: #593641;
+                margin-bottom: 45px;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 1.9;
+                margin-bottom: 25px;
+                text-align: justify;
+            }
+
+            .latin {
+                text-align: center;
+                font-size: 22px;
+                font-weight: bold;
+                color: #8f4962;
+                margin: 30px 0;
+            }
+
+            .italic {
+                text-align: center;
+                font-style: italic;
+                margin-top: -20px;
+                margin-bottom: 30px;
+            }
+
+            .highlight {
+                text-align: center;
+                font-size: 23px;
+                font-weight: bold;
+                color: #b34d70;
+                margin: 40px 0;
+                line-height: 1.7;
+            }
+
+            .final {
+                text-align: center;
+                margin-top: 50px;
+                font-size: 25px;
+                line-height: 1.8;
+                color: #593641;
+            }
+
+            .ps {
+                margin-top: 50px;
+                padding: 25px;
+                background: #fff5f8;
+                border-radius: 20px;
+                border: 1px dashed #e3a9bb;
+            }
+
+            .ending {
+                text-align: center;
+                margin-top: 50px;
+                font-size: 24px;
+                font-weight: bold;
+                color: #b34d70;
+            }
+
+            @media (max-width: 600px) {
+                body {
+                    padding: 20px 10px;
+                }
+
+                .container {
+                    padding: 30px 20px;
+                }
+
+                h1 {
+                    font-size: 27px;
+                }
+
+                p {
+                    font-size: 16px;
+                    text-align: justify;
+                }
+
+                .latin {
+                    font-size: 19px;
+                }
+
+                .highlight {
+                    font-size: 20px;
+                }
+
+                .final {
+                    font-size: 21px;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <audio id="bgMusic" loop>
+            <source src="/static/music.mp3" type="audio/mpeg">
+        </audio>
+
+        <div class="container">
+
+            <div class="heart">💌</div>
+
+            <h1>FINIS EPISTULAE — AKHIR DARI SURAT INI</h1>
+
+            <p>
+                Jika kau telah sampai pada bagian ini,
+                maka wahai pria yang kucintai,
+                engkau telah resmi memperoleh sebuah gelar kehormatan:
+            </p>
+
+            <div class="latin">
+                “Vir qui verba amatae suae usque ad finem toleravit.”
+            </div>
+
+            <div class="italic">
+                Pria yang berhasil bertahan membaca ocehan kekasihnya hingga akhir.
+            </div>
+
+            <div class="highlight">
+                🏛️ Sebuah pencapaian yang layak dicatat dalam sejarah Romawi.
+                <br>
+                Mungkin Julius Caesar pun belum tentu sanggup.
+            </div>
+
+            <p>
+                Sebagai penghargaan atas keberanianmu,
+                aku persembahkan kepadamu hadiah terbesar yang kumiliki.
+            </p>
+
+            <div class="final">
+                Aku.
+            </div>
+
+            <p style="text-align: center;">
+                Ya. Aku tahu.<br>
+                Sungguh hadiah yang sangat luar biasa. 😌
+            </p>
+
+            <p>
+                Sayangnya, hadiah ini bersifat <strong>permanen.</strong>
+            </p>
+
+            <p>
+                Tidak dapat dikembalikan kepada senat.<br>
+                Tidak dapat ditukar dengan perempuan lain.<br>
+                Tidak menerima refund.<br>
+                Dan segala bentuk komplain akan dipertimbangkan terlebih dahulu
+                oleh pihak yang berwenang
+            </p>
+
+            <div class="highlight">
+                yaitu aku. 😭❤️
+            </div>
+
+            <p>
+                Namun di balik segala candaan ini,
+                ada satu hal yang ingin kusimpan sungguh-sungguh dalam surat ini:
+            </p>
+
+            <div class="final">
+                Terima kasih.
+            </div>
+
+            <p>
+                Terima kasih karena telah hadir dalam hidupku.
+                Terima kasih karena telah berjalan bersamaku sejauh ini.
+                Terima kasih karena telah menjadi seseorang yang begitu berarti
+                dalam hidupku.
+            </p>
+
+            <p>
+                Jika dahulu orang-orang Romawi menuliskan kisah tentang peperangan,
+                kemenangan, dan kerajaan,
+                maka jika aku diberi kesempatan menulis satu kisah tentang hidupku sendiri,
+                aku ingin menuliskan satu hal:
+            </p>
+
+            <div class="highlight">
+                bahwa di antara begitu banyak manusia di dunia ini,
+                aku pernah dipertemukan denganmu.
+            </div>
+
+            <p>
+                Dan dari seluruh hal yang mungkin terjadi dalam hidupku,
+                aku akan selalu menganggap pertemuan itu sebagai salah satu
+                anugerah paling indah yang pernah diberikan kepadaku.
+            </p>
+
+            <p>
+                Jadi sekarang, setelah membaca semuanya,
+                tutup surat ini perlahan.
+            </p>
+
+            <div class="highlight">
+                Tarik napas.<br>
+                Lalu tersenyumlah sedikit. ❤️
+            </div>
+
+            <p>
+                Karena di suatu tempat,
+                ada seorang perempuan yang mungkin masih memiliki banyak kekurangan,
+                kadang terlalu banyak berpikir,
+                kadang terlalu banyak bicara,
+                kadang sedikit merepotkan,
+                dan mungkin sesekali membuatmu ingin menghela napas panjang...
+            </p>
+
+            <p>
+                tetapi perempuan itu...
+            </p>
+
+            <div class="final">
+                mencintaimu dengan seluruh ketulusan yang ia punya.
+            </div>
+
+            <p style="text-align: center;">
+                Dan perempuan itu adalah aku.
+            </p>
+
+            <div class="latin">
+                Te amo, hodie et in omnibus diebus qui venturi sunt.
+            </div>
+
+            <div class="italic">
+                Aku mencintaimu, hari ini dan di setiap hari yang akan datang. ❤️
+            </div>
+
+            <div class="highlight">
+                Jadi, selamat.
+                <br>
+                Kau telah sampai di akhir surat.
+            </div>
+
+            <div class="final">
+                🏆 Praemium tuum: ego sum.
+                <br>
+                <span style="font-size: 18px;">
+                    Hadiahmu: aku.
+                </span>
+            </div>
+
+            <p style="text-align: center;">
+                Tidak bisa dikembalikan.<br>
+                Tidak bisa ditukar.<br>
+                Tidak bisa dibatalkan.
+            </p>
+
+            <div class="latin">
+                Deo volente, usque ad finem.
+            </div>
+
+            <div class="italic">
+                Jika Tuhan menghendaki, sampai akhir.
+            </div>
+
+            <div class="ps">
+
+                <p>
+                    🌷 <strong>P.S.</strong>
+                </p>
+
+                <p>
+                    Jangan terlalu GR dulu.
+                </p>
+
+                <p>
+                    Besok aku tetap bisa ngambek.
+                </p>
+
+                <p>
+                    Karena meskipun aku mencintaimu seperti pujangga Romawi
+                    yang menulis kisah cintanya di atas marmer...
+                </p>
+
+                <div class="highlight">
+                    aku tetap pacarmu yang bisa bilang,
+                    <br><br>
+                    “Mas, NYEBELIN BANGET SUMPAH.
+                    AKU BETMUT.” 😌❤️
+                </div>
+
+            </div>
+
+            <div class="ending">
+                — Finis epistulae. —
+                <br><br>
+                <span style="font-size: 18px;">
+                    Surat ini berakhir, tetapi cintanya tidak. ❤️
+                </span>
+            </div>
+
+        </div>
+
+        <script>
+            const bgMusic = document.getElementById("bgMusic");
+
+            const savedTime = localStorage.getItem("musicTime");
+
+            if (savedTime) {
+                bgMusic.currentTime = parseFloat(savedTime);
+            }
+
+            bgMusic.play().catch(() => {
+                console.log("Menunggu izin browser untuk memutar musik");
+            });
+
+            setInterval(() => {
+                if (!bgMusic.paused) {
+                    localStorage.setItem("musicTime", bgMusic.currentTime);
+                }
+            }, 500);
+        </script>
+
+    </body>
+    </html>
+    """
 
 
 
