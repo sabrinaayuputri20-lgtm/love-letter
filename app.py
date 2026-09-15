@@ -1539,7 +1539,7 @@ def penutup():
         </p>
 
         <p class="highlight">
-            yaitu aku. 😭❤️
+            DAN ORANG ITU ADALAH GWEH
         </p>
     </div>
 
