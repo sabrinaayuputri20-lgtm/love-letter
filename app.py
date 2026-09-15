@@ -1555,9 +1555,9 @@ def penutup():
         </p>
 
         <p>
-            Terima kasih karena telah hadir dalam hidupku.<br>
-            Terima kasih karena telah berjalan bersamaku sejauh ini.<br>
-            Terima kasih karena telah menjadi seseorang yang begitu berarti dalam hidupku.
+            ⭐  Terima kasih karena telah hadir dalam hidupku.<br>
+            ⭐  Terima kasih karena telah berjalan bersamaku sejauh ini.<br>
+            ⭐  Terima kasih karena telah menjadi seseorang yang begitu berarti dalam hidupku.
         </p>
     </div>
 
@@ -1585,11 +1585,11 @@ def penutup():
     <div class="box">
         <p>
             Jadi sekarang, setelah membaca semuanya,<br>
-            tutup surat ini perlahan.
+            tutuplah surat ini.
         </p>
 
         <p class="center">
-            Tarik napas.
+            Tarik napas dulu.
         </p>
 
         <p class="center">
@@ -1602,7 +1602,7 @@ def penutup():
             kadang terlalu banyak berpikir,
             kadang terlalu banyak bicara,
             kadang sedikit merepotkan,
-            dan mungkin sesekali membuatmu ingin menghela napas panjang...
+            dan mungkin sesekali membuatmu ingin menghela napas panjang
         </p>
 
         <p class="highlight">
@@ -1644,13 +1644,13 @@ def penutup():
         </p>
 
         <p class="center">
-            <em>Hadiahmu: aku.</em>
+            <em>Hadiahmu: aku?? HEHE </em>
         </p>
 
         <p>
-            Tidak bisa dikembalikan.<br>
-            Tidak bisa ditukar.<br>
-            Tidak bisa dibatalkan.
+            ❌  Tidak bisa dikembalikan.<br>
+            ❌  Tidak bisa ditukar.<br>
+            ❌  Tidak bisa dibatalkan.
         </p>
 
         <p class="latin">
@@ -1673,11 +1673,11 @@ def penutup():
         </p>
 
         <p class="center">
-            Jangan terlalu GR dulu.
+            MUIHIHIHIHI
         </p>
 
         <p class="center">
-            Besok aku tetap bisa ngambek.
+            Besok aku tetap bisa ngambek lagi btw.
         </p>
 
         <p>
@@ -1686,7 +1686,7 @@ def penutup():
 
         <p class="highlight">
             aku tetap pacarmu yang bisa bilang,
-            “Mas, NYEBELIN BANGET SUMPAH. AKU BETMUT.” 😌❤️
+            “Mas, NYEBELIN BANGET SUMPAH. AKU BETMUT.” 
         </p>
     </div>
 
