@@ -11,7 +11,7 @@ def home():
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Untuk Kamu</title>
+        <title>Untuk Kamu mas</title>
 
         <style>
             * {
@@ -90,11 +90,11 @@ def home():
 
             <div class="heart">♡</div>
 
-            <h1>Untuk Kamu</h1>
+            <h1>Untuk Kamu mas</h1>
 
-            <p>Ada sesuatu yang ingin aku sampaikan...</p>
+            <p>Ada sesuatu yang mau aku sampaikan...</p>
 
-            <p>Tapi sebelumnya, aku mau tanya beberapa hal.</p>
+            <p>Tapi sebelumnya, aku mau tanya beberapa hal dulu</p>
 
             <a href="/pertanyaan" class="button">
                 Mulai ♡
