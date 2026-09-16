@@ -203,7 +203,7 @@ def pertanyaan():
             <h1>Pertanyaan pertama 💗</h1>
 
             <p>
-                Kamu siap mengetahui apa yang ingin aku sampaikan?
+                Kamu maw taw apa yang mw aku bilang?
             </p>
 
             <div class="buttons">
@@ -287,14 +287,14 @@ def belum():
 
         <div class="card">
 
-            <h1>Hehe 🙈</h1>
+            <h1>LAH??? KO GA SIAP BJIR?! 😡</h1>
 
             <p>
-                Nggak apa-apa, aku tunggu sampai kamu siap.
+                KOCAK, sakit hati adek...
             </p>
 
             <a href="/pertanyaan">
-                Aku sudah siap sekarang 💗
+                oke, gweh dah siap 🙂‍↕️
             </a>
 
         </div>
