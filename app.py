@@ -968,7 +968,7 @@ def pertanyaan_3():
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Pertanyaan Ketiga 💗</title>
+    <title>💗 Pertanyaan Ketiga 💗</title>
 
     <style>
         * {
@@ -1217,20 +1217,19 @@ def pertanyaan_3():
         <h1>Pertanyaan ketiga</h1>
 
         <p class="subtitle">
-            Sebelum aku mengatakan semuanya...
+            Sebelum mas baca semua yang aku tulis..
         </p>
 
         <p class="question">
-            Bolehkah aku jujur tentang apa yang sebenarnya
-            aku rasakan?
+            MAAF YAA kalau tulisan atau apapun yang kubuat jauh dari kata sempurna hehe
         </p>
 
       <a href="/pesan" class="button" onclick="startAndGo(event)">
-    Aku siap mendengarnya 💗
+    bodo amat, tetep mau baca 💗
 </a>
 
         <div class="small-text">
-            pelan-pelan ya... ada sesuatu yang ingin kusampaikan ♡
+            btw, ak tw dibanding xaviera skill ku kek biji"an, TP hope u like it MWAH!
         </div>
 
     </div>
