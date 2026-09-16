@@ -396,11 +396,10 @@ def pertanyaan_2():
 
         <div class="card">
 
-            <h1>Pertanyaan kedua 💕</h1>
+            <h1>💕 Pertanyaan kedua 💕</h1>
 
             <p>
-                Kalau aku punya sesuatu yang penting untuk kamu,
-                kamu mau mendengarkannya sampai selesai?
+                OM, mau baca ampe akhir kan? capek adek bikinnya lho.. HIKSROT 😓
             </p>
 
             <div class="buttons">
@@ -410,7 +409,7 @@ def pertanyaan_2():
 </a>
 
                 <a href="/pertanyaan" class="button back">
-                    Aku mau kembali 🙈
+                    GA DLU 🖕
                 </a>
 
             </div>
